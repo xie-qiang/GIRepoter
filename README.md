@@ -39,4 +39,6 @@ mkdir -p output
 
 ## Inference
 
-Please use `inference.ipynb` for inference.
+```sh
+python inference.py
+```
