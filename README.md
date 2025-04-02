@@ -38,6 +38,18 @@ git lfs clone https://huggingface.co/xieqiang/GIRepoter
 cd ..
 ```
 
+## Download Sample Data
+
+Please download the sample data and place it in the `./sample_data` directory.
+
+```sh
+mkdir -p sample_data
+cd sample_data
+# Download Sample Data
+git lfs clone https://huggingface.co/datasets/xieqiang/GIRepoter_sample_data
+cd ..
+```
+
 ## Inference
 
 ```sh
