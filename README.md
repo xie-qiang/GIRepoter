@@ -33,8 +33,10 @@ Please download the trained GIReporter model and place it in the `./output` dire
 
 ```sh
 mkdir -p output
+cd output
 # Download GIReporter trained models
 git lfs clone https://huggingface.co/xieqiang/GIRepoter
+cd ..
 ```
 
 ## Inference
