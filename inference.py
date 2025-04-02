@@ -36,7 +36,7 @@ ACModel.eval()
 GradeModel.eval()
 
 # Anatomical Region Classification & Abnormal State Recognition
-case_path = "sample_data/case_2"
+case_path = "sample_data/GIRepoter_sample_data/case_2"
 case_list = [os.path.join(case_path, file) for file in os.listdir(case_path) if file.endswith('.jpg') or file.endswith('.png')]
 batchsize = 32
 
