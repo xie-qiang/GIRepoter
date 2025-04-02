@@ -7,13 +7,12 @@
 ```sh
 # Install PyTorch based on your CUDA version
 pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118 # CUDA 11.8
-
 pip install -e .
 ```
 
 ## Download Pretrained Weights
 
-Please download the following pretrained models and place them in the `./pretrained` directory:
+Please download the following pretrained models and place them in the `./pretrained` directory.
 
 ```sh
 mkdir -p pretrained
