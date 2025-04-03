@@ -63,7 +63,7 @@ class GradeModel(nn.Module):
             nn.Linear(256, self.num_classes)
         )
     
-    def forward(self, feats):  # feats_list: List[Tensors], 每个 (N_i, H)
+    def forward(self, feats): 
         feats = self.ln_vision(feats)[:, 0, :]
         mean_tensor = feats.mean(dim=0)
         logits = self.classifier(mean_tensor)
